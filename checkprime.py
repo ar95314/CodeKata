@@ -4,8 +4,8 @@ class checkprime:
       if num%i==0:
         print("no")
         break
-      else:
-        print("yes")
+    else:
+      print("yes")
 num=int(input())
 c=checkprime()
 c.prime(num)
