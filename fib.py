@@ -12,7 +12,7 @@ class fib:
 			lst.append(fib)
 			n=n-1
 		for i in range(len(lst)):
-			if lst[i]==lst[len(lst)-1]:
+			if i==(len(lst)-1):
 				print(lst[i])
 			else:
 				print(lst[i],end=" ")
