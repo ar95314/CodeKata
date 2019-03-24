@@ -1,6 +1,10 @@
-digit=int(input())
-count=0
-while digit>0:
-  digit=digit//10
-  count+=1
-print(count)
+class count:
+  def digit(self,n):
+    count=0
+    while n>0:
+      n=n//10
+      count+=1
+    print(count)
+n=int(input())
+call=count()
+call.digit(n)
