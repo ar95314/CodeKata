@@ -1,11 +1,10 @@
-import math
 class check:
-	def ifperfect(self,n):
-		temp=int(math.sqrt(n))
-		if temp*temp == n:
+	def ifperfect(self,n,m):
+		prod=n*m
+		if n==m:
 			print("yes")
 		else:
 			print("no")
-n=int(input())
+n,m=map(int,input().split())
 call=check()
-call.ifperfect(n)
+call.ifperfect(n,m)
