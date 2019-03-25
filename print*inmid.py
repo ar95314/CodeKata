@@ -14,7 +14,7 @@ class changeto:
 			if i==((len(lst))-1):
 				print(lst[i])
 			else:
-				print(lst[i],end=" ")
+				print(lst[i],end="")
 s=input()
 call=changeto()
 call.midle(s)
