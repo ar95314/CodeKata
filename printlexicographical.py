@@ -4,7 +4,6 @@ class sort:
 		for i in s:
 			lst.append(i)
 		lst.sort()
-		print(lst)
 		for i in range(len(lst)):
 			print(lst[i],end="")
 s=input()
