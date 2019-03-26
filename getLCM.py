@@ -1,4 +1,4 @@
-class gcd:
+class lcm:
 	def checkit(self,n,m):
 		if n > m:
 			greater = n
@@ -11,5 +11,5 @@ class gcd:
 			greater += 1
 		print(lcm)
 n,m=map(int,input().split())
-call=gcd()
+call=lcm()
 call.checkit(n,m)
