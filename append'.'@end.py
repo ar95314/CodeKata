@@ -6,7 +6,6 @@ for i in string:
 for i in range(len(lst)):
 	if i==len(lst)-1:
 		lst.append('.')
-print(lst)
 for i in range(len(lst)):
 	if i == len(lst)-1:
 		print(lst[i])
