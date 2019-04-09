@@ -1,17 +1,14 @@
 lst1=[]
-class getprime:
+class checkprime:
   def prime(self,n,m):
-  	for i in range(n+1,m):
+  	count=0
+  	for i in range(n,m+1):
   		for j in range(2,i):
   			if i%j==0:
   				break
   		else:
-  			lst1.append(i)
-  	for i in range(len(lst1)):
-  		if i==len(lst1)-1:
-  			print(lst1[i])
-  		else:
-  			print(lst1[i],end=" ")
+  			count+=1
+  	print(count)
 n,m=map(int,input().split())
-c=getprime()
+c=checkprime()
 c.prime(n,m)
